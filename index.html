@@ -1,8 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
+    <meta charset="utf-8">
+    <title>ねずみのプロフィール</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <p>Hello world</p>
+    <section class="header">
+        <div class="header-img">
+          <img src="images/Header1.png">
+        </div>
+        <div class="header-text">
+          <div class="icon-wrapper"><div class="icon"></div></div>
+          <h1>ねずみ</h1>
+          <p>何者でもない<br><br>
+          興味があることは、なんでもする。<br>
+          飽き性でもある。<br>
+          ---<br>
+          趣味はお絵描き、3Dモデリング</p>
+        </div>
+    </section>
+    <section>
+      <h1>Links</h1>
+      <div class="flex-parent">
+        <div class="link flex">
+          <a href="https://twitter.com/__Iz8" target="_blank">
+            <div class="title">Twitter</div>
+            <div class="url">https://twitter.com/__Iz8</div>
+            <hr>
+            <p>日々のつぶやき</p>
+          </a>
+        </div>
+
+        <div class="link flex">
+          <a href="https://www.pixiv.net/users/2267157" target="_blank">
+            <div class="title">Pixiv</div>
+            <div class="url">https://www.pixiv.net/users/2267157</div>
+            <hr>
+            <p>ちょっと頑張って描いたやつのせるとこ</p>
+          </a>
+        </div>
+
+        <div class="link flex">
+          <a href="https://sketch.pixiv.net/@iz8" target="_blank">
+            <div class="title">Pixiv Sketch</div>
+            <div class="url">https://sketch.pixiv.net/@iz8</div>
+            <hr>
+            <p>Pixivよりは更新頻度多め</p>
+            <p>ラフだったり線画だったりする</p>
+          </a>
+        </div>
+
+        <div class="link flex">
+          <a href="https://hub.vroid.com/users/2267157" target="_blank">
+            <div class="title">VRoid Hub</div>
+            <div class="url">https://hub.vroid.com/users/2267157</div>
+            <hr>
+            <p>主にBlenderを使ってモデリング</p>
+            <p>たまにVRoid Studio</p>
+          </a>
+        </div>
+
+        <div class="link flex">
+          <a href="https://zutelier.booth.pm/" target="_blank">
+            <div class="title">BOOTH</div>
+            <div class="url">https://zutelier.booth.pm/</div>
+            <hr>
+            <p>オリジナル3Dモデルを販売</p>
+          </a>
+        </div>
+
+        <div class="link flex">
+          <a href="https://skeb.jp/@__Iz8" target="_blank">
+            <div class="title">Skeb</div>
+            <div class="url">https://skeb.jp/@__Iz8</div>
+            <hr>
+            <p>余裕ある時に開けてるかも</p>
+          </a>
+        </div>
+
+        <div class="link flex">
+          <a href="https://marshmallow-qa.com/__iz8" target="_blank">
+            <div class="title">マシュマロ</div>
+            <div class="url">https://marshmallow-qa.com/__iz8</div>
+            <hr>
+            <p>食べたい</p>
+          </a>
+        </div>
+
+        <div class="adjuster"></div>
+        <div class="adjuster"></div>
+        <div class="adjuster"></div>
+      </div>
+    </section>
+    <section>
+      <h1>Create</h1>
+
+      <input type="checkbox" id="pop-up1">
+      <input type="checkbox" id="pop-up2">
+      <input type="checkbox" id="pop-up3">
+
+      <div class="flex-parent">
+        <div class="item flex">
+          <label class="open" for="pop-up1">
+            <img src="images/2022_01.png">
+          </label>
+        </div>
+
+        <div class="item flex">
+          <label class="open" for="pop-up2">
+            <img src="images/2022_02.png">
+          </label>
+        </div>
+
+        <div class="item flex">
+          <label class="open" for="pop-up3">
+            <img src="images/2021.png">
+          </label>
+        </div>
+
+        <div class="adjuster"></div>
+        <div class="adjuster"></div>
+        <div class="adjuster"></div>
+      </div>
+
+      <div class="overlay">
+        <div class="window">
+          <label class="close pop-up-item1" for="pop-up1">×</label>
+          <label class="close pop-up-item2" for="pop-up2">×</label>
+          <label class="close pop-up-item3" for="pop-up3">×</label>
+          <img class="pop-up-item1" src="images/2022_01.png">
+          <img class="pop-up-item2" src="images/2022_02.png">
+          <img class="pop-up-item3" src="images/2021.png">
+          <div class="comment">
+            <p class="pop-up-item1">2022年に制作したうちの子まとめ。</p>
+            <p class="pop-up-item2">2022年に制作したセラちゃんの衣装まとめ。</p>
+            <p class="pop-up-item3">2021年の2月からBlenderでモデリングを開始。1年間で制作したうちの子まとめ</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
