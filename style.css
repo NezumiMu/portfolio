@@ -1,5 +1,6 @@
 html {
     background-color: rgb(234, 239, 241);
+    color: rgb(22, 22, 22);
 }
 
 body {
@@ -28,11 +29,6 @@ section {
 }
 
 section.header {
-    /* background-color: rgb(245, 245, 245); 
-    border-bottom: 1px solid rgb(170, 170, 170);
-    border-left: 1px solid rgb(170, 170, 170);
-    border-right: 1px solid rgb(170, 170, 170);
-    border-radius: 0 0 10px 10px; */
     margin-top: 0;
 }
 
